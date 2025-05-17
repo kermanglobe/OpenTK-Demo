@@ -122,6 +122,7 @@ namespace gamev3
             }
 
             // Загрузка текстур
+            // Правильный подход предполагал бы составление текстурного атласа, но для демонстрации возможностей хватит и этого
 
             Texture diffuseMap = Texture.LoadFromFile("Textures/container2.png", TextureUnit.Texture7);
             Texture specularMap = Texture.LoadFromFile("Textures/container2_specular.png", TextureUnit.Texture8);
